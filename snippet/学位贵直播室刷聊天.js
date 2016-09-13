@@ -14,4 +14,3 @@ function send() {
 setInterval("send()",1000)
 
 setTimeout("send()",1000)
-ex

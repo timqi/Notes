@@ -2,4 +2,6 @@
 
 在 bin 目录的 idea.properties 增加一行：
 
-  disable.android.first.run=true
+```
+disable.android.first.run=true
+```

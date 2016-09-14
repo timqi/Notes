@@ -41,8 +41,7 @@
 
         define variables:
             an integer, pos ← 2 (the current position we are computing in T)
-            an integer, cnd ← 0 (the zero-based index in W of the next
-    character of the current candidate substring)
+            an integer, cnd ← 0 (the zero-based index in W of the next character of the current candidate substring)
 
         (the first few values are fixed but different from what the algorithm might suggest)
         let T[0] ← -1, T[1] ← 0

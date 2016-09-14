@@ -17,11 +17,11 @@ describe('KMP', function() {
       performTest('ABC ABCDAB ABCDABCDABDE', 'ABDABD');
     });
 
-    it('Empty text', function(){
+    it('Empty word', function(){
       performTest('ABC ABCDAB ABCDABCDABDE', '');
     })
 
-    it('Empty case', function(){
+    it('Empty text', function(){
       performTest('', 'ABCDABD');
     });
 });

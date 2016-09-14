@@ -1,7 +1,7 @@
 {
   "name": "kmp_algorithm",
   "version": "1.0.0",
-  "description": "[Knuth–Morris–Pratt algorithm](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)",
+  "description": "",
   "main": "kmp.js",
   "scripts": {
     "test": "mocha test_kmp.js"

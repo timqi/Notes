@@ -13,6 +13,10 @@ describe('KMP', function() {
       performTest('ABC ABCDAB ABCDABCDABDE', 'ABCDABD');
     });
 
+    it('Can not find', function(){
+      performTest('ABC ABCDAB ABCDABCDABDE', 'ABDABD');
+    });
+
     it('Empty text', function(){
       performTest('ABC ABCDAB ABCDABCDABDE', '');
     })

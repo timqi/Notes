@@ -23,7 +23,7 @@ curl "$USER_RULE_LIST" > $USER_RULE_TEXT_PATH
 /usr/local/bin/gfwlist2pac \
   --input $GFWLIST_TEXT_PATH \
   --file $CURRENT_PATH/g.pac \
-  --proxy "SOCKS5 $PROXY; SOCKS $PROXY; DIRECT" \
+  --proxy "$PROXY" \
   --user-rule $USER_RULE_TEXT_PATH \
   --precise
 

@@ -82,6 +82,6 @@ pip install gfwlist2pac
 
 执行脚本
 
-[gen_pac.sh](gen_pac.sh)
+[gen_pac.sh](https://raw.githubusercontent.com/timqi/Notes/master/experience/proxy/gen_pac.sh)
 
 上面脚本生成结合 gfwlist 与用户自定义规则并且使用 AdBlock 算法的 PAC 文件，需要将用户规则列表 USER_RULE_LIST，代理地址 PROXY，与最终 PAC 文件的补充完整并运行

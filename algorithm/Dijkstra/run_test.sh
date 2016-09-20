@@ -14,6 +14,9 @@ SOURCE_LIST_PATH=$BUILD_PATH/src.lst
 # all of *.class file destination
 BUILD_CLASS_PATH=$BUILD_PATH/classes
 
+if [ ! -d $BUILD_PATH ]; then
+  mkdir $BUILD_PATH
+fi
 rm -f $SOURCE_LIST_PATH
 rm -rf $BUILD_CLASS_PATH
 mkdir $BUILD_CLASS_PATH
